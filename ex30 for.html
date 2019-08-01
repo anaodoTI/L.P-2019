@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ex30(for)</title>
+</head>
+<body>
+	<script type="text/javascript"> 
+
+		var n1,n2;
+
+	n1 = parseFloat(prompt("digite um numero"));
+
+    n2 = parseFloat(prompt("digite outro numero"));
+
+	if  (n1<n2){
+		for(var n = n1; n <=n2; n++)
+{ 
+       if(n%2!=0){
+
+	document.write(n+'<br>')
+		}
+    } 
+}
+    else if (n1>n2)
+    {
+     
+     for(var n=n1; n >=n2; n--){
+
+     	if(n%2!=0){
+
+	document.write(n+'<br>')
+		}
+
+     }
+ }
+     else{
+     	alert("numeros iguais seu burro da F5 e coloca numeros diferentes")
+     }
+	</script>
+
+
+</body>
+</html>
